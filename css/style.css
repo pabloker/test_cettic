@@ -3,7 +3,7 @@ table{
 }
 
 #body-settings{
-  background: url('cel.png') no-repeat center center fixed;
+  background: url('../TemplateData/cel.png') no-repeat center center fixed;
   background-size: 855px 800px;
 
 }
