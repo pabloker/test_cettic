@@ -16,7 +16,7 @@
       </div>
       <table>
         <tr>
-          <form action="" method="post">
+          <form action="game.php" method="post">
             <td>Set Timer</td>
             <td><input type="number" name="formTimer" max="500" value="30"></td>
         </tr>
