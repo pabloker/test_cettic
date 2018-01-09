@@ -1,3 +1,50 @@
+table{
+  height: 250px;
+}
+
+#body-settings{
+  background: url('cel.png') no-repeat center center fixed;
+  background-size: 855px 800px;
+
+}
+body{
+  overflow-x:auto;
+  background-color: white;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 1em;
+  color: white;
+   text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 3px 0 #000;
+}
+.specialtext
+{
+    color: yellow;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.center
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+}
+#chart-container
+{
+  width: 640px;
+  height: auto;
+  display: s;
+  margin: auto;
+}
+
+
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -116,4 +163,3 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-

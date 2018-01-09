@@ -11,7 +11,7 @@
       <div id='cssmenu'>
         <ul>
            <li class="active"><a href="index.php">Settings</a></li>
-           <li><a href="">Metrics</a></li>
+           <li><a href="charts.php">Metrics</a></li>
         </ul>
       </div>
       <table>
