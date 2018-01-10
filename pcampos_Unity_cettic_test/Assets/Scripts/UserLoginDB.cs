@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UserLoginDB : MonoBehaviour {
 
-	private string loginURL = "http://localhost/test_cettic/data/login.php";
+	private string loginURL = "http://localhost/website/data/login.php";
 
 	public InputField username, password;
 	public Text warningMsg;

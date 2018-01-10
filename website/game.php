@@ -25,7 +25,7 @@
     </div>
     <?php
      if (!$_POST['submit']){
-    header('Location: http://localhost/test_cettic/index.php');
+    header('Location: http://localhost/website/index.php');
     die();
     }
      ?>

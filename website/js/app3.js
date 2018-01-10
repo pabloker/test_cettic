@@ -10,7 +10,7 @@ $('document').ready(function(){
 function RequestUser2(username){
   $.ajax({
     method: "POST",
-    url: "http://localhost/runner/dao/avgvsplayerdata.php",
+    url: "http://localhost/website/data/avgvsplayerdata.php",
     data: {selected2: username},
     success: function(data){
       console.log(data);
