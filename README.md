@@ -51,7 +51,7 @@ The music is based in traditional japanese music with a fast rhythm that invoke 
 
 # OTHER REQUIREMENTS
 
-| First Header  | Second Header | Second Header | Second Header |
+| Code  | Description | Type | Acceptance Criteria |
 | ------------- | ------------- | ------------- | ------------- |
 | REQ-16  | The gameplay must include obstacles for the player can lose before timeout.  | Functional  | Obstacles will push the player off the screen and make him/her lose.  |
 | REQ-17  | The game must include Art, Visual Effects and Music for the environment.  | Functional  | The game will have simple Art, Visual effects and Music according to the game atmosphere.  |
