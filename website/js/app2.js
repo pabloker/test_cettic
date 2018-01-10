@@ -37,11 +37,11 @@ $('document').ready(function(){
                yAxes: [{
                   scaleLabel: {
                   display: true,
-                  labelString: 'Score',
+                  labelString: 'Score'
+                  },
                   ticks: {
                     beginAtZero: true
                     }
-                  }
                 }],
               }
             }
