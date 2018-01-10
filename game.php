@@ -28,10 +28,29 @@
     header('Location: http://localhost/test_cettic/index.php');
     die();
     }
-    echo "Timer: {$_POST['formTimer']} <br>";
-    echo "Points: {$_POST['formPoints']} <br>";
-    echo "Player Speed: {$_POST['formSpeed']}";
-    ?>
+     ?>
+    <table>
+    <tr>
+      <td align="center"><h1>Gameplay Attributes</h1></td>
+    </tr>
+    <td>
+    <?php echo "Timer: {$_POST['formTimer']} <br>";
+    echo "Points by Rice: {$_POST['formPoints']} <br>";
+    echo "Player Speed: {$_POST['formSpeed']}"; ?></td>
+
+      <tr>
+        <td align="center"><h1>How to Play</h1></td>
+      </tr>
+      <tr>
+        <td>Hold "A" key to move Left </td>
+      </tr>
+      <tr>
+        <td>Hold "D" key to move Right </td>
+      </tr>
+      <tr>
+        <td>Press "SPACE" key to Jump </td>
+      </tr>
+    </table>
      <div class="webgl-content">
       <div id="gameContainer" style="width: 350px; height: 600px"></div>
     </div>

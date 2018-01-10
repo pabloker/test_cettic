@@ -1,4 +1,4 @@
-var barGraph3;
+var lineGraph3;
 $('document').ready(function(){
 
   $("#meetingPlace2").change(function(){
@@ -19,7 +19,7 @@ function RequestUser2(username){
       var score = [];
 
       for(var i in data){
-        player.push("Partida "+ data[i].play);
+        player.push("Gameplay "+ data[i].play);
         avg.push(data[i].average);
         score.push(data[i].totalscore);
       }
@@ -50,11 +50,11 @@ function RequestUser2(username){
           }
         ]
       };
-      if (barGraph3 != undefined || barGraph3 != null) {
-         barGraph3.destroy();
+      if (lineGraph3 != undefined || lineGraph3 != null) {
+         lineGraph3.destroy();
           }
       var ctx = $("#mycanvas3");
-       barGraph3 = new Chart(ctx, {
+       lineGraph3 = new Chart(ctx, {
         type: 'line',
         data: chardata,
         options: {
