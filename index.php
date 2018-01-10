@@ -18,15 +18,15 @@
         <tr>
           <form action="game.php" method="post">
             <td>Set Timer</td>
-            <td><input type="number" name="formTimer" max="500" value="30"></td>
+            <td><input type="number" name="formTimer" max="500" value="30" required="true"></td>
         </tr>
         <tr>
             <td>Set Points</td>
-            <td><input type="number" name="formPoints" max="1000" value="1"></td>
+            <td><input type="number" name="formPoints" max="1000" value="1" required="true"></td>
         </tr>
         <tr>
             <td>Set Speed</td>
-            <td><input type="number" name="formSpeed" max="200" value="90"></td>
+            <td><input type="number" name="formSpeed" max="200" value="90" required="true"></td>
         </tr>
         <tr>
             <td>

@@ -21,7 +21,7 @@ $("#meetingPlace").change(function(){
 
       for(var i in data){
         count = count + 1;
-        player.push("Partida "+ count);
+        player.push("Gameplay "+ count);
         score.push(data[i].totalscore);
       }
 
