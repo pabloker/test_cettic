@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UserRegisterDB : MonoBehaviour {
 
-	private	string createUserURL = "http://localhost/test_cettic/data/register.php";
+	private	string createUserURL = "http://localhost/website/data/register.php";
 
 	public InputField inputUsername, inputPassword;
 	public Text warningMsg;

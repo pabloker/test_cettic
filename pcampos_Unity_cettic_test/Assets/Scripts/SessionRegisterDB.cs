@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SessionRegisterDB : MonoBehaviour {
 
-	private string URL = "http://localhost/test_cettic/data/sessions.php";
+	private string URL = "http://localhost/website/data/sessions.php";
 
 	void Start ()
 	{

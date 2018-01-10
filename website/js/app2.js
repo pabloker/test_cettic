@@ -2,7 +2,7 @@ var lineGraph2;
 $('document').ready(function(){
   $.ajax({
     method: "GET",
-    url: "http://localhost/runner/dao/avgdata.php",
+    url: "http://localhost/website/data/avgdata.php",
     success: function(data){
       console.log(data);
       var player = [];

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CallAttributesDB : MonoBehaviour {
 
-	private string URL = "http://localhost/test_cettic/data/callattributes.php";
+	private string URL = "http://localhost/website/data/callattributes.php";
 	private string[] array;
 
 	void Awake()

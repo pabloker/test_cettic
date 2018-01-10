@@ -11,7 +11,7 @@ $("#meetingPlace").change(function(){
   function RequestUser(username){
   $.ajax({
     method: "POST",
-    url: "http://localhost/runner/dao/playerdata.php",
+    url: "http://localhost/website/data/playerdata.php",
     data: {selected: username},
     success: function(data){
       console.log(data);
